@@ -69,7 +69,7 @@ Throughput for BSS 2: 6.8016 Mbit/s
 
 
 Test 10
-./ns3 run scratch/wifi-spatial-reuse-copy -- --enableObssPd=False --obssPdThreshold=-73 --obssPdThreshold=-73 --channelBandwidth=40 --d1=5 --d2=5 --d3=30 --powSta1=12 --powSta2=12 --powAp1=20 --powAp2=20 --ccaEdTrSta1=-82 --ccaEdTrSta2=-82 --ccaEdTrAp1=-82 --ccaEdTrAp2=-82
+./ns3 run scratch/wifi-spatial-reuse-copy -- --enableObssPd=False --obssPdThreshold=-73 --channelBandwidth=40 --d1=5 --d2=5 --d3=30 --powSta1=12 --powSta2=12 --powAp1=20 --powAp2=20 --ccaEdTrSta1=-82 --ccaEdTrSta2=-82 --ccaEdTrAp1=-82 --ccaEdTrAp2=-82
 Throughput for BSS 1: 7.3128 Mbit/s
 Throughput for BSS 2: 6.8016 Mbit/s
 
