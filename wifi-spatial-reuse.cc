@@ -532,7 +532,7 @@ main(int argc, char* argv[])
     Simulator::Destroy();
 
     
-    for (uint32_t i = 0; i < 3; i++)
+    for (uint32_t i = 0; i < 3; i++) // Modified code - updated to output 3 sets of results generated for 3 BSSs in CLI
     {
         double throughput = static_cast<double>(bytesReceived[2 + i]) * 8 / 1000 / 1000 / duration;
         std::cout << "Throughput for BSS " << i + 1 << ": " << throughput << " Mbit/s" << std::endl;
