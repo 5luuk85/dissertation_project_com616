@@ -342,7 +342,7 @@ main(int argc, char* argv[])
         ap2Device->GetHeConfiguration()->SetAttribute("BssColor", UintegerValue(2));
     }
  
-// BSS 3 properties and colouring setup - Modified code, added to orginal script
+// BSS 3 properties and colouring setup - Modified code, added to original script
     spectrumPhy.Set("TxPowerStart", DoubleValue(powSta3));
     spectrumPhy.Set("TxPowerEnd", DoubleValue(powSta3));
     spectrumPhy.Set("CcaEdThreshold", DoubleValue(ccaEdTrSta3));
@@ -451,7 +451,7 @@ main(int argc, char* argv[])
         wifiApNodes.Get(1)->AddApplication(server);
     }
 
-    // BSS 3 run setup - Modified code, added to orginal script
+    // BSS 3 run setup - Modified code, added to original script
     {
         PacketSocketAddress socketAddr;
         socketAddr.SetSingleDevice(staDeviceC.Get(0)->GetIfIndex());
@@ -493,7 +493,7 @@ main(int argc, char* argv[])
     
 
 
-    // Flow monitor initialise code - Modfied code - Works but output file code failed
+    // Flow monitor initialise code - Modified code - Works but output file code failed
     /*Ptr<FlowMonitor> flowMonitor;
     FlowMonitorHelper flowHelper;
     flowMonitor = flowHelper.InstallAll();
@@ -503,7 +503,7 @@ main(int argc, char* argv[])
 
     Simulator::Stop(Seconds(duration));
 
-// Netanim run - Modified code - used initaily to visualise positions of nodes, no longer used in code
+// Netanim run - Modified code - used initailly to visualise positions of nodes, no longer used in code
     /*
     AnimationInterface anim("anim-spatical-reuse.xml");
     anim.SetMaxPktsPerTraceFile(50000);
